@@ -59,22 +59,3 @@ By default, the application should be available at [http://localhost:3000/](http
 3. Planning on using a custom domain? Update `public/CNAME`. Otherwise, remove it.
 
 After making a commit to `main`, simply push your changes, and the deployment will be handled automatically.
-
-### Static Export
-
-For a static export without deploying to GitHub Pages:
-
-- Remove or disable `.github/workflows/github-pages.yml`.
-- Execute:
-
-    ```bash
-    npm run predeploy
-    ```
-
-This will generate a static version in `personal-site/build/` which you can host or deploy to a CDN.
-
-## 🙌 Acknowledgements
-
-- Initial template from [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
-- Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-- Kudos to [@notrueblood](https://github.com/notrueblood)[<sup>[1]</sup>](https://github.com/mldangelo/personal-site/pull/218) and [@sjhsieh](https://github.com/sjhsieh)[<sup>[2]</sup>](https://github.com/mldangelo/personal-site/issues/168) for their constructive feedback.
