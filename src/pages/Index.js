@@ -5,27 +5,22 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
+    description={"Yu Ze's personal website. Singapore based NYU & LSE graduate, "
     + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2><Link to="/">About this site</Link></h2>
+          <h2><Link to="/">Hellu!</Link></h2>
           <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+            Welcome to my website :)
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p> Nice to meet you! I hope to share some projects that I&apos;m working on here and
+        I hope you enjoy them.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <p> Website adapted from <Link to="https://github.com/mldangelo/personal-site">Michael D&apos;Angelo</Link>.</p>
     </article>
   </Main>
 );
